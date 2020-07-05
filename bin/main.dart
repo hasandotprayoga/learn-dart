@@ -1,4 +1,3 @@
-main(List<String> arguments)
-{
+main(List<String> args) {
   print('Hello world!');
 }
