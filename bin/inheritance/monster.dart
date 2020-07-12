@@ -1,5 +1,6 @@
 import 'character.dart';
 
-class Monster extends Character{
+abstract class Monster extends Character{
   String eatHuman() => 'Nyam nyam mantap';
+  String move(); // method yang harus diimplementasi oleh turunannya
 }
